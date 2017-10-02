@@ -35,8 +35,8 @@ and dekstop and app-steaming on very high level.
 * Business Productivity (WorksDocs, WorkMail)
 * IoT (iOT)
 * Dekstop and App Stream (Workspaces, AppStream 2.0)
-* Artificial Intelligence
-* Messaging
+* Artificial Intelligence (lex, polly, machine learning, rekognition)
+* Messaging (SQS, SNSб SES)
 
 ## Global Infrastructure
 
