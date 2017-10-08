@@ -68,7 +68,7 @@ aws iam attach-user-policy --policy-arn arn:aws:iam::484455220000:policy/aws-cer
 ### Upload file
 ```
 # Generate few file
-base64 /dev/urandom | head -c 1 file-0.txt
+base64 /dev/urandom | head -c 1 > file-0.txt
 
 # Upload file
 aws s3 cp file-0.txt s3://aws-certificate-train-0/file-0.txt

@@ -1,0 +1,13 @@
+{
+    "Role": "arn:aws:iam::484455220186:role/certificate-replica-role",
+    "Rules": [
+      {
+        "Prefix": "",
+        "Status": "Enabled",
+        "Destination": {
+          "Bucket": "arn:aws:s3:::aws-certificate-replica-east",
+          "StorageClass": "STANDARD"
+        }
+      }
+    ]
+  }
