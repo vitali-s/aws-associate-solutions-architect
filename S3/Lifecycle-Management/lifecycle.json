@@ -1,0 +1,26 @@
+{
+    "Rules": [
+        {
+            "ID": "Move rotated logs to Glacier",
+            "Prefix": "rotated/",
+            "Status": "Enabled",
+            "Transitions": [
+                {
+                    "Date": "2015-11-10T00:00:00.000Z",
+                    "StorageClass": "GLACIER"
+                }
+            ]
+        },
+        {
+            "Status": "Enabled",
+            "Prefix": "",
+            "NoncurrentVersionTransitions": [
+                {
+                    "NoncurrentDays": 2,
+                    "StorageClass": "GLACIER"
+                }
+            ],
+            "ID": "Move old versions to Glacier"
+        }
+    ]
+}

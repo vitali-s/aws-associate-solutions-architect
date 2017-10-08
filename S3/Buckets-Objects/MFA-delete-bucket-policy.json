@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Id": "123",
+    "Statement": [
+      {
+        "Sid": "",
+        "Effect": "Deny",
+        "Principal": "*",
+        "Action": "s3:*",
+        "Resource": "arn:aws:s3:::examplebucket/taxdocuments/*",
+        "Condition": { "Null": { "aws:MultiFactorAuthAge": true } }
+      },
+      {
+        "Sid": "",
+        "Effect": "Allow",
+        "Principal": "*",
+        "Action": ["s3:GetObject"],
+        "Resource": "arn:aws:s3:::examplebucket/*"
+      }
+    ]
+ }

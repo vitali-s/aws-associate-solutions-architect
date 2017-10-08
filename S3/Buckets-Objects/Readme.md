@@ -18,8 +18,6 @@ Things to remember:
 ** ls
 * Exclude and include files: '--exclude "*" --include "*.txt"'
 
-
-
 ## Copy Files
 
 ### Create policy with bucket access
@@ -135,3 +133,8 @@ aws s3 sync s3://bucket-name .
 # Sync between buckets
 aws s3 sync s3://my-us-west-2-bucket s3://my-us-east-1-bucket --source-region us-west-2 --region us-east-1
 ```
+
+### Delete objects/versions
+If versioning is enabled S3 insert delete marker as current version and return 404 error, when you try to access object.
+
+To permanently delete specific object version should be deleted.
