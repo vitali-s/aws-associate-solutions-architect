@@ -56,4 +56,4 @@ Amazon garantee 99,9% availability and 99,99999999999 (11x9's) duarbility for S3
 # References
 
 Mandatory to read:
-* S3 FAQ: 
+* S3 FAQ: https://aws.amazon.com/s3/faqs/
