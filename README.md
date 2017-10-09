@@ -6,6 +6,8 @@ Main sources are described at: https://aws.amazon.com/certification/certificatio
 
 * Udemyy course: https://www.udemy.com/aws-certified-solutions-architect-associate/learn/v4/overview
 
+* List of materials: https://gist.github.com/leonardofed/bbf6459ad154ad5215d354f3825435dc
+
 ## Main Areas Covered by Exam
 
 * Compute
