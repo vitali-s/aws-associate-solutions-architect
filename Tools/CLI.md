@@ -9,7 +9,7 @@ $ pip install awscli --upgrade --user
 
 * Autocomplete configration: http://docs.aws.amazon.com/cli/latest/userguide/cli-command-completion.html
 
-* Configuration files (defailt, and names profiles)
+* Configuration files (default, and names profiles)
 ```
 ~/.aws              # Unix, Linux
 %UserProfile%\.aws  # Windows
@@ -43,6 +43,8 @@ aws ec2 describe-instances --profile user2
 export AWS_PROFILE=user2    # Unix, Linux
 set AWS_PROFILE=user2       # Windows
 ```
+
+
 
 ## Environment variables
 
